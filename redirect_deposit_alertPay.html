@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+       
+        <title>AlertPay Deposit</title>
+    </head>
+    <body>
+        <div data-role="page" id="redirectDepositAlert">
+			You will be redirected to the AlertPay...
+            <div class="divEntry">
+				<img src="image/ajax-loader.gif"/>
+			</div>
+			<form method="post" action="https://www.alertpay.com/PayProcess.aspx" id="frm_paypal" name="frm_paypal">
+         		
+				<input type="hidden" name="ap_merchant" />
+				<input type="hidden" name="ap_purchasetype" value="item-goods"/>
+				<input type="hidden" name="ap_itemname" value="Microworker deposit"/>
+				<input type="hidden" name="ap_amount" value="" />
+				<input type="hidden" name="ap_currency" value="USD"/>
+				
+				<input type="hidden" name="ap_quantity" value="1"/>
+				<input type="hidden" name="ap_description" value="Microworker deposit"/>
+				<input type="hidden" name="ap_returnurl" />
+				<input type="hidden" name="ap_cancelurl" />
+    
+			</form>
+        </div>
+       
+    </body>
+</html>

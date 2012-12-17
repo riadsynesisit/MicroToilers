@@ -1,0 +1,22 @@
+
+.divHome
+{
+	padding-top:5%;
+	padding-left:1%;
+	padding-right:1%;
+}
+
+.btnHomeLeft
+{
+	float:left;
+	width:90%;
+	padding-left:2%;
+}
+.btnHomeRight
+{
+	float:left;
+	width:90%;	
+	padding-left:2%;
+}
+
+ 

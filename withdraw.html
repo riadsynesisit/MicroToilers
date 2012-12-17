@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+       
+        <title>Profile</title>
+    </head>
+    <body>
+        <div data-role="page" data-theme="a" data-content-theme="a" id="profilePage">
+			<div>
+				<a style="float:left" href="home.html" data-role="button" data-theme="b" data-icon="home" data-inline="true">Home</a>
+				<a style="float:right" href="home.html" data-role="button" data-theme="b" data-icon="back" data-inline="true">Back</a>
+			</div>
+			<div style="clear:both"></div>
+            <div class="divEntry">
+				<table class="tableView" cellspacing="2" border="1">
+					<tr>
+						<td colspan="2" align="left" valign="top"><strong>Withdrawal method</strong></td>
+						<td width="100" align="left" valign="top"><strong>Maximum you can withdraw</strong> </td>
+						<td style="padding:6px;" height="20"><strong>Fee</strong></td>
+					</tr>
+					<tr>
+						<td style><input name="method" type="radio" value="paypal" data-role="none" /></td>
+						<td>Paypal</td>
+						<td>&nbsp;</td>
+						<td>6.00%</td>
+					</tr>
+					<tr>
+						<td><input name="method" type="radio" value="alertpay" data-role="none" /></td>
+						<td>AlertPay</td>
+						<td>&nbsp;</td>
+						<td>6.50%</td>
+  				    </tr>
+					<tr>
+						<td colspan="2"><strong>Amount to withdraw</strong> </td>
+						<td><input type="text" name="ammount"  /></td>
+						<td>Min Amt:$9.00 -- Max : $<b class="maxAmnt"></b> </td>
+                    </tr>
+					<tr>
+						<td colspan="2"><strong>Sent Payment To</strong> </td>
+						<td><input type="text" name="payment_email"  /></td>
+						<td>Paypal/Alertpay </td>
+                    </tr>
+				</table>
+			
+				<a href="#" id="btnAmountSubmit" data-role="button"  data-theme="e" >Submit Request</a>
+			 </div>
+        </div>
+       
+    </body>
+</html>

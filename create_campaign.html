@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+       
+        <title>Create Campaign</title>
+    </head>
+    <body>
+        <div data-role="page" id="createCampPage">
+			<div>
+				<a style="float:left" href="home.html" data-role="button" data-theme="b" data-icon="home" data-inline="true">Home</a>
+				<a style="float:right" href="campaigns.html" data-role="button" data-theme="b" data-icon="back" data-inline="true">Back</a>
+			</div>
+            <div class="divEntry1">
+			<div data-role="fieldcontain">
+				<input type="text" name="txtTitle" id="txtTitle" value=""  placeholder="Title"/>
+			</div><br/>
+           <div data-role="fieldcontain">
+				<input type="text" name="txtSpeed" id="txtSpeed" value=""  placeholder="Speed"/>
+			</div><br/>
+			<div >
+				<table>
+					<tr>
+						<td>Task Time</td>
+						<td><input class="inputTextCalculate" value="3" type="text" id="txtTaskTime" /> Minutes</td>
+					</tr>
+					<tr>
+						<td>Availabe Position</td>
+						<td><input class="inputTextCalculate" type="text" id="txtTaskPos" value="30" /></td>
+					</tr>
+					<tr>
+						<td>Worker Earning</td>
+						<td><input class="inputTextCalculate" type="text" id="txtTaskEarn" value="0.1" /></td>
+					</tr>
+					<tr>
+						<td colspan="2">Cost= $<span id="spnTotalCost">3.5</span></td>
+					</tr>
+				</table>
+			</div><br/>
+			<div data-role="fieldcontain">
+				<label for="select-choice-0" class="select">Category:</label>
+				<select name="select-choice-0" id="select-choice-0" >
+					
+				</select>
+			</div>
+			<div data-role="fieldcontain">
+				<label for="select-choice-1" class="select">Sub Category:</label>
+				<select name="select-choice-1" id="select-choice-1" >
+					
+				</select>
+			</div>
+			<div data-role="fieldcontain">
+				<span>What is Expected:</span>
+				<textarea id="txtExpected" cols="10" rows="6" ></textarea>
+			</div><br/>
+			<div data-role="fieldcontain">
+				<span>Required Proof:</span>
+				<textarea id="txtProof" cols="10" rows="6" ></textarea>
+			</div><br/>
+			
+			<a href="#" id="btnCampaignCreate" data-role="button"  data-theme="e">Create</a>
+			 </div>
+        </div>
+       
+    </body>
+</html>

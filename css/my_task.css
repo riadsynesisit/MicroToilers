@@ -1,0 +1,50 @@
+
+/* Portrait layout (default) */
+
+/* Landscape layout (with min-width) */
+
+.divMytask
+{
+	padding-top:5%;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+.btnCreateTask
+{
+	text-align:center;
+	padding-left:25%;
+	width:48%;
+	color:#2ECEEE;
+}
+
+.tabheader div{
+	line-height:3em;
+	height:3em;
+	text-align: center;
+	overflow
+	width:90%;
+}
+.tabheader1{	
+	background-color: #AFDAD4;
+	border:1px solid #AFDAD4;
+	width:90%;
+}
+
+.tabheader2{
+	
+	background-color: #D0E7E9;
+	border:1px solid #D0E7E9;
+}
+
+.tabbody{
+	border:1px solid #776D80;
+	margin-top:4px;
+	padding:3px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	text-align: center;
+	width:90%;
+}
+ 
