@@ -117,8 +117,11 @@ var app = {
                    cache: false,
                    dataType: "json",
                    data: {uname:uname, upass:upass},
-                   success: function(data){
-					
+                   beforeSend : function(){
+					$.mobile.showPageLoadingMsg();
+				   },
+				   success: function(data){
+					$.mobile.hidePageLoadingMsg();
 					console.log(data);
 					if(data.data.res === "Success")
 					{
